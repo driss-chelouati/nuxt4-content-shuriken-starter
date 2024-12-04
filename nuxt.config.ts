@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@vueuse/nuxt',
   ],
-  css: ['~/assets/tailwind.css'],
+  css: ['~/assets/tailwind.css', '~/assets/vcalendar.css'],
   content: {
     build: {
       markdown: {
