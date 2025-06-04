@@ -6,14 +6,14 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   // ssr: false,
-  extends: ['@shuriken-ui/nuxt'],
   modules: [
     '@nuxt/content',
     '@nuxt/image',
     '@nuxt/fonts',
     '@vueuse/nuxt',
+    '@shuriken-ui/nuxt', 
   ],
-  css: ['~/assets/tailwind.css'],
+  css: ['~/assets/main.css'],
   content: {
     build: {
       markdown: {
